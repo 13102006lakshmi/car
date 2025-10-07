@@ -1,0 +1,15 @@
+command = ""
+while command != "quite":
+    command= input("> ").lower()
+    if command== "starts":
+        print('car starts.')
+    elif command =="stop":
+        print('car stopped.')
+    elif command == "help":
+        print("""
+        start - to start the car.
+        stop - to stop the car.
+        quite - quite the game.
+        """)
+    else:
+       print("sorry we dont understand.")
